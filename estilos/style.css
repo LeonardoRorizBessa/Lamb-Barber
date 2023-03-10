@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(213, 213, 213);
+}
+
+.cabeçalho {
+    position: inline;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 11%;
+    right: 30px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+h1 img {
+    width: 11%;
+}
+
+h1 img:hover  {
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+}
+
+.titulo_serviços {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.serviços, .info {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.titulo_lamb {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 70px 0;
+}
+
+.titulo {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 70px 0 30px 15px;
+}
+
+.serviços li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.itens_serviços {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.serviços_preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.serviços li:hover {
+    border-color: #db8a5b;
+}
+
+.itens_negrito {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.itens_info {
+    font-size: 17px;
+    margin: 15px;
+}
+
+.loc_mapa {
+    margin: 0 0 0 15px;
+}
+
+.equipe li {
+    display: inline-block;
+    text-align: center;
+    width: 17%;
+    vertical-align: top;
+    border-radius: 15px;
+}
+
+.membros_equipe {
+    font-size: 20px;
+    padding: 10px 0 0 0;
+}
+
+.mapa {
+    display: inline-block;
+    width: 1000px;
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 40px 0;
+}
+
+footer img {
+    width: 250px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
